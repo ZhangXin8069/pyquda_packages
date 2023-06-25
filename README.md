@@ -13,6 +13,7 @@ pushd work
 bash install_pyquda.sh
 # wait... maybe you can use more threads by high gpu version ,then cmake *** -j64...
 popd
+rm work.tar.gz
 ```
 5. when you want to run ,do this
 ```
@@ -22,3 +23,7 @@ python external-libraries/PyQuda/tests/test.clover.py
 ***************
 # very easy to run!
 # thanks baidu!
+***************
+# Reference and source code sources
+## [https://github.com/lattice/quda.git](https://github.com/lattice/quda.git)
+## [https://github.com/CLQCD/PyQuda.git](https://github.com/CLQCD/PyQuda.git)
