@@ -16,8 +16,8 @@ cmake --install .
 popd
 popd
 
-unzip -oq ${file_path}/PyQuda-master.zip
-mv PyQuda-master PyQuda
+unzip -oq ${file_path}/PyQuda-hmc.zip
+mv PyQuda-hmc PyQuda
 pushd PyQuda
 cp ../quda/build/lib/libquda.so ./
 pip install . -t ${install_path}
