@@ -1,5 +1,5 @@
-# PyQuda-env
-PyQuda-env run  directly
+# pyquda_packages
+PyQuda run  directly
 ****************
 1. login [https://aistudio.baidu.com/aistudio/projectoverview/private](https://aistudio.baidu.com/aistudio/projectoverview/private)
 2. to run a new project(just like page.png,and of cource,use gpu version)
