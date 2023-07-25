@@ -5,6 +5,6 @@ mkdir ${install_path} -p
 
 pushd ~
 echo "export PYTHONPATH=${install_path}:\$PYTHONPATH" >> ~/.bashrc 
-echo "export LD_LIBRARY_PATH=${install_path}/quda/build/lib:\$LD_LIBRARY_PATH" >> ~/.bashrc 
+echo "export LD_LIBRARY_PATH=${install_path}/quda-develop/build/lib:\$LD_LIBRARY_PATH" >> ~/.bashrc 
 source ./.bashrc
 popd
