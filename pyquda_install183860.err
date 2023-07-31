@@ -1,0 +1,19 @@
+WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.HTTPSConnection object at 0x2ae952a72470>: Failed to establish a new connection: [Errno 101] Network is unreachable')': /simple/numpy/
+WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.HTTPSConnection object at 0x2ae952a727a0>: Failed to establish a new connection: [Errno 101] Network is unreachable')': /simple/numpy/
+WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.HTTPSConnection object at 0x2ae952a72a40>: Failed to establish a new connection: [Errno 101] Network is unreachable')': /simple/numpy/
+WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.HTTPSConnection object at 0x2ae952a72bf0>: Failed to establish a new connection: [Errno 101] Network is unreachable')': /simple/numpy/
+WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.HTTPSConnection object at 0x2ae952a72da0>: Failed to establish a new connection: [Errno 101] Network is unreachable')': /simple/numpy/
+ERROR: Could not find a version that satisfies the requirement numpy (from versions: none)
+ERROR: No matching distribution found for numpy
+WARNING: Target directory /public/home/zhangxin/external-libraries/pyquda already exists. Specify --upgrade to force replacement.
+WARNING: Target directory /public/home/zhangxin/external-libraries/PyQuda-0.3.1.dist-info already exists. Specify --upgrade to force replacement.
+Traceback (most recent call last):
+  File "/public/home/zhangxin/external-libraries/PyQuda-master/tests/test.clover.py", line 28, in <module>
+    mpi.init()
+  File "/public/home/zhangxin/external-libraries/pyquda/mpi.py", line 55, in init
+    cuda.Device(gpuid).use()
+  File "cupy/cuda/device.pyx", line 192, in cupy.cuda.device.Device.use
+  File "cupy/cuda/device.pyx", line 198, in cupy.cuda.device.Device.use
+  File "cupy_backends/cuda/api/runtime.pyx", line 374, in cupy_backends.cuda.api.runtime.setDevice
+  File "cupy_backends/cuda/api/runtime.pyx", line 143, in cupy_backends.cuda.api.runtime.check_status
+cupy_backends.cuda.api.runtime.CUDARuntimeError: cudaErrorNoDevice: no CUDA-capable device is detected

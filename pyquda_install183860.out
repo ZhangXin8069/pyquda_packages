@@ -1,0 +1,15 @@
+~/external-libraries ~/pyquda_packages
+~/external-libraries/PyQuda-master ~/external-libraries ~/pyquda_packages
+Processing /public/home/zhangxin/external-libraries/PyQuda-master
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Building wheels for collected packages: PyQuda
+  Building wheel for PyQuda (setup.py): started
+  Building wheel for PyQuda (setup.py): finished with status 'done'
+  Created wheel for PyQuda: filename=PyQuda-0.3.1-cp310-cp310-linux_x86_64.whl size=268809 sha256=f23b79c8c2d7c8614684811453d63ee71bd00afb22263e5cb90d7a3801ad78d2
+  Stored in directory: /public/home/zhangxin/.cache/pip/wheels/4b/ae/0e/97d82785fb59bfce61e480e532d4661cb00a4b6663227d0013
+Successfully built PyQuda
+Installing collected packages: PyQuda
+Successfully installed PyQuda-0.3.1
+~/external-libraries ~/pyquda_packages
+~/pyquda_packages
